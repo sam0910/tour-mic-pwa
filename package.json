@@ -7,8 +7,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -H 0.0.0.0 -p 3000",
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@serwist/next": "latest",
